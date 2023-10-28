@@ -1,6 +1,8 @@
+@import url('https://fonts.google.com/specimen/Quando?query=quando');
+
 body {
   /* margin: 0px 50px 0px 50px; */
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Quando';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('../public/Rectangle1.png');
@@ -22,7 +24,7 @@ nav {
   background-image: url('../public/headerPic1.png');
   background-size: cover;
   height: 400px;
-
+  margin-bottom: 50px;
 }
 
 .rectangle-one {
@@ -33,4 +35,25 @@ nav {
   height: 69px;
   background-color: white;
   border: 1px solid black;
+}
+
+.menuItem {
+  width: 560px;
+  background: rgb(232, 226, 226);
+  box-shadow: grey 4px 4px 4px ;
+  margin: 2em 1em 2em 1em;
+  border-radius: 8px;
+  font-size: large;
+  padding: 2em;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+h1 {
+  margin-left: 2em;
 }
