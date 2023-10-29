@@ -1,0 +1,28 @@
+.menuItem {
+  width: 560px;
+  background: rgb(232, 226, 226);
+  box-shadow: grey 4px 4px 4px ;
+  margin: 2em 1em 2em 1em;
+  border-radius: 8px;
+  font-size: large;
+  padding: 2em;
+}
+
+.enlargedMenuItem {
+  width: 800px;
+  height: 6em;
+  background: rgb(232, 226, 226);
+  box-shadow: grey 4px 16px 16px ;
+  margin: 2em 1em 2em 1em;
+  border-radius: 8px;
+  font-size: x-large;
+  padding: 2em;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+

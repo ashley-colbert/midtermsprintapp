@@ -1,12 +1,26 @@
-import React from 'react'
-import PropTypes from "prop-types";
+import React, {useState} from 'react'
 
 
+function MenuItem({ menu, extraMenu, price }) {
+  const [isEnlarged, setIsEnlarged] = useState(false);
 
-function MenuItem({menu, price}) {
+  const toggleEnlarged = () => {
+    setIsEnlarged(!isEnlarged);
+  };
+
   return (
-    <div className="menuItem">{menu}{price}</div>
-  )
+    <div
+      className={`menuItem ${isEnlarged ? 'enlargedMenuItem' : ''}`}
+      onClick={toggleEnlarged}
+    >
+      <div className="bold" >{menu}<br /></div>
+      {isEnlarged && (
+        <div>{extraMenu}<br />{price}</div>
+      )}
+    </div>
+  );
 }
+
+
 
 export default MenuItem
