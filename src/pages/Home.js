@@ -1,9 +1,18 @@
+import "./Home.css"
+
 const Home = () => {
   return (
     <>
       <div>
-        <h1>Home</h1>
-        <div className="rectangle-one"></div>
+        <div className="homeTextBox">
+          <div className="stars">&#9733;</div>
+          <div className="stars">&#9733;</div>
+          <div className="stars">&#9733;</div>
+          <p className="homeHeader">Gary Blue's Diner, where you can stop feeling blue!</p>
+          <div className="stars">&#9733;</div>
+          <div className="stars">&#9733;</div>
+          <div className="stars">&#9733;</div>
+        </div>
       </div>
     </>
   );
