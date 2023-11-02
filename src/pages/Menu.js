@@ -7,8 +7,8 @@ const Menu = () => {
       <div>
         <h1>Breakfast</h1>
         <div className="menuContainer">
-          <MenuItem menu="The Light Blue Platter" extraMenu="An egg white omlette with spinach, mushrooms, and cheddar cheese. Whole grain toast and fresh fruit." price="$15.99"/>
-          <MenuItem menu="Gary's Famous Omlete" extraMenu="A three egg omlette filled with cheese, ham, red peppers, and onions.  Hashbrowns and choice of bread on the side." price="$15.99"/>
+          <MenuItem menu="The Light Blue Platter" extraMenu="An egg white omelette with spinach, mushrooms, and cheddar cheese. Whole grain toast and fresh fruit." price="$15.99"/>
+          <MenuItem menu="Gary's Famous Omelette" extraMenu="A three egg omelette filled with cheese, ham, red peppers, and onions.  Hashbrowns and choice of bread on the side." price="$15.99"/>
           <MenuItem menu="The Big Blue Platter" extraMenu="Choice of meat(sausage, bacon, or ham) with a side of hashbrowns, two made to order eggs, and choice of bread." price="$17.50"/>
           <MenuItem menu="The Kid's Platter" extraMenu="A kid's size version of our famous Big Blue Platter." price="$8.99"/>
         </div>
