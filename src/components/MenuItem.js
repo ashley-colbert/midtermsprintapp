@@ -13,7 +13,7 @@ function MenuItem({ menu, extraMenu, price }) {
       className={`menuItem ${isEnlarged ? 'enlargedMenuItem' : ''}`}
       onClick={toggleEnlarged}
     >
-      <div className="bold" >{menu}<br /></div>
+      <div className="bold" >{menu}</div>
       {isEnlarged && (
         <div>{extraMenu}<br />{price}</div>
       )}

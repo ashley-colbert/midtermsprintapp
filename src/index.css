@@ -1,8 +1,7 @@
 @import url('https://fonts.google.com/specimen/Quando?query=quando');
 
 body {
-  /* margin: 0px 50px 0px 50px; */
-  font-family: 'Quando';
+  font-family: 'Quando', Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('../public/Rectangle1.png');
