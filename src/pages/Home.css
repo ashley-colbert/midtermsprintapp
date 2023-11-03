@@ -10,6 +10,40 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 1px 0px black;
+}
+
+.homeLocationBox {
+    margin-top: 80px;
+    margin-left: 90px;
+    border-radius: 8px;
+    width: 1219px;
+    height: 276px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 0px black;
+
+}
+
+.homeSummaryBox {
+    margin-top: 80px;
+    margin-left: 90px;
+    border-radius: 8px;
+    width: 1219px;
+    height: 276px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 0px black;
 }
 
 .homeHeader {
@@ -23,4 +57,19 @@
     border-radius: 50%;
     text-shadow: 0px 1px 4px red;
     margin: 0 20px;
+}
+
+#locationHours {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#summaryText {
+    text-align: left;
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 50px;
 }
