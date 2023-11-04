@@ -1,4 +1,6 @@
 import MenuItem from "../components/MenuItem";
+import Footer from "../components/Footer";
+
 import "./Menu.css"
 
 const Menu = () => {
@@ -27,6 +29,9 @@ const Menu = () => {
           <MenuItem menu="Gary's Chocolate Cake" extraMenu="Three layers of rich choclate cake, layered with chocolate fudge frosting, and topped with chocolate whipped cream." price="$7.50"/>
           <MenuItem menu="Ice Cream" extraMenu="Two scoops of french vanilla ice cream, topped with your choice of sauce(chocolate, caramel, blueberry)" price="$5.50"/>
           <MenuItem menu="Pie" extraMenu="A slice of the pie of the day." price="$5.50"/>
+        </div>
+        <div>
+          <Footer/>
         </div>
       </div>
     </>

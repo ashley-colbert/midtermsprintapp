@@ -1,0 +1,12 @@
+.footer {
+    background-color: rgb(219, 98, 98);
+    width: auto;
+    height: 2em;
+    margin-top: 3em;
+}
+
+#footerLeftText {
+    justify-content: left;
+    padding-top: 0.4em;
+    padding-left: 1em;
+}

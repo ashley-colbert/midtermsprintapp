@@ -1,6 +1,7 @@
 import MyImageComponent from "../components/ImageComponent";
 import MyImageComponent2 from "../components/ImageComponent2";
 import MyImageComponent3 from "../components/ImageComponent3";
+import Footer from "../components/Footer";
 
 import "./Home.css"
 
@@ -45,6 +46,9 @@ const Home = () => {
             dignissim vulputate.
             </p>
           </div>
+        </div>
+        <div>
+          <Footer/>
         </div>
       </div>
     </>

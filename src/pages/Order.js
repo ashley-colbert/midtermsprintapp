@@ -1,4 +1,6 @@
 import OrderItem from "../components/OrderItem";
+import Footer from "../components/Footer";
+
 import "./Order.css"
 
 const Order = () => {
@@ -20,6 +22,9 @@ const Order = () => {
     <OrderItem item="Chocolate Cake"/>
     <OrderItem item="Ice Cream"/>
     <OrderItem item="Pie"/>
+  </div>
+  <div>
+    <Footer/>
   </div>
   </>
   )
