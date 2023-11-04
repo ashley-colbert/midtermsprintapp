@@ -22,5 +22,4 @@ function MenuItem({ menu, extraMenu, price }) {
 }
 
 
-
 export default MenuItem

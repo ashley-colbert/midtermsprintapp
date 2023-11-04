@@ -19,7 +19,7 @@ nav {
   color: white;
 }
 
-.header {
+header {
   background-image: url('../public/headerPic1.png');
   background-size: cover;
   height: 400px;
@@ -34,3 +34,19 @@ h1 {
   padding-bottom: 3px;
   font-weight: bolder;
 }
+
+caption {
+  width: 300px;
+  font-size: 10px;
+  text-align:left;
+}
+
+#headCap {
+  margin-top: -50px;
+}
+@media only screen and (max-width: 800px) {
+  header {
+    height: 200px;
+  }
+}
+

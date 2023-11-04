@@ -1,6 +1,6 @@
 import MenuItem from "../components/MenuItem";
 import Footer from "../components/Footer";
-
+import ScrollingPics from "../components/ScrollingPics";
 import "./Menu.css"
 
 const Menu = () => {
@@ -14,6 +14,7 @@ const Menu = () => {
           <MenuItem menu="The Big Blue Platter" extraMenu="Choice of meat(sausage, bacon, or ham) with a side of hashbrowns, two made to order eggs, and choice of bread." price="$17.50"/>
           <MenuItem menu="The Kid's Platter" extraMenu="A kid's size version of our famous Big Blue Platter." price="$8.99"/>
         </div>
+        <ScrollingPics />
         <h1>Lunch and Dinner</h1>
         <div className="menuContainer">
           <MenuItem menu="The Deep Blue Sea Platter" extraMenu="Two pieces of fish, with a choice or side, and tartar sauce." price="$18.50"/>

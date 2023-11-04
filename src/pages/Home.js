@@ -21,6 +21,8 @@ const Home = () => {
         <div className="homeLocationBox">
           <div>
             <MyImageComponent/>
+            <caption>Photo by <a href="https://unsplash.com/@rmacwheeler?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">R. Mac Wheeler</a> on <a href="https://unsplash.com/photos/red-padded-bar-chairs-CJZi367anGU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  </caption>
           </div>
           <div>
             <p id="locationHours">We're located on 405 Cerulean Road<br/><br/>
@@ -32,11 +34,15 @@ const Home = () => {
           </div>
           <div>
             <MyImageComponent2/>
+            <caption>Photo by <a href="https://unsplash.com/@evonneteoh?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">E Y Teoh</a> on <a href="https://unsplash.com/photos/red-and-white-wooden-counter-0aS06T7ip3g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  </caption>
           </div>
         </div>
         <div className="homeSummaryBox">
           <div>
             <MyImageComponent3/>
+            <caption>Photo by <a href="https://unsplash.com/@john_matychuk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">John Matychuk</a> on <a href="https://unsplash.com/photos/the-diner-lighted-signage-fX2WyHHeAUY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  </caption>
           </div>
           <div>
             <p id="summaryText">Gary Blue's diner was opened in 1972 with the goal of providing<br/>

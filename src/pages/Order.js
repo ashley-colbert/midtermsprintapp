@@ -1,6 +1,7 @@
 import OrderItem from "../components/OrderItem";
 import Footer from "../components/Footer";
-
+import CCForm from "../components/CCForm";
+import SpecialRequest from "../components/SpecialRequest";
 import "./Order.css"
 
 const Order = () => {
@@ -22,6 +23,8 @@ const Order = () => {
     <OrderItem item="Chocolate Cake"/>
     <OrderItem item="Ice Cream"/>
     <OrderItem item="Pie"/>
+    <SpecialRequest />
+    <CCForm />
   </div>
   <div>
     <Footer/>

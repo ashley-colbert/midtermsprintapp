@@ -1,3 +1,6 @@
+// Written by Jay Eagles and Ashley Colbert
+// Written on November 4, 2023
+
 import { Outlet, Link, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
@@ -6,21 +9,22 @@ import Order from "./pages/Order";
 const linkStyle = {
   textDecoration: 'none',
   color: 'white',
-  text: '30pt',
-  padding: '30px',
-  fontSize: '30pt'
+  padding: '15px',
+  fontSize: '20pt'
 };
 
 function App() {
   return (
     <>
-    <header className='header'>
+    <header>
     <nav>
-      <Link to="/" style={linkStyle}>Home</Link>
-      <Link to="/menu" style={linkStyle}>Menu</Link>
-      <Link to="/order" style={linkStyle}>Order Online</Link>
+      <Link style={linkStyle} to="/" className="nav-link">Home</Link>
+      <Link style={linkStyle} to="/menu" >Menu</Link>
+      <Link style={linkStyle} to="/order" >Order Online</Link>
     </nav>
     </header>
+    <caption id="headCap">Photo by <a href="https://unsplash.com/@dayanaranacion?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dayanara Nacion</a> on <a href="https://unsplash.com/photos/red-leather-bench-inside-room-HuIJUp6gTDI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  </caption>
     <Outlet />
       <Routes>
         <Route path="/" element={<App />}></Route>
